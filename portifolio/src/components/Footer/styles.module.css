@@ -1,0 +1,157 @@
+.FooterController{
+    padding: 80px 0px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.Footer{
+    display: flex;
+    width: 896px;
+    height: 190px;
+    flex-shrink: 0;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.TextFooter{
+
+    color: #FFF;
+    text-align: right;
+    /* Paragraph */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    }
+
+.ImgsFooter{
+    display: flex;
+    gap:15px;
+    width: 86px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+.TitleImgFooter{
+    display: flex;
+    flex-direction: column;
+}
+
+.Title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+@media (max-width: 390px) {
+    .Header {
+        padding: 14px 0px 0px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 19px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .BannerSection {
+        padding: 70px 0px 0px;
+        display: flex;
+        justify-content: center;
+        gap: 38px;
+        flex-wrap: wrap;
+    }
+
+    .ImgBanner{
+        width: 309.692px;
+        height: 187.924px;  
+    }   
+
+    .AboutMe {
+        padding: 64px 18px 0px;
+        display: flex;
+        justify-content: center;
+        gap: 22px;
+        flex-direction: column;
+    }
+
+    .Text {
+        width: 360px;
+    }
+    .TechSectionControler {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .TechSection {
+        gap: 28px;
+        padding: 70px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-end;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .TechList {
+        gap: 21px;
+        width: 343px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+    .ProjectSections {
+       width: 340px; 
+        gap: 29px;
+        padding: 80px 22px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .ProjectSectionsController {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .ListProject {
+        width: 356px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 28px;
+        flex-direction: column;
+        align-content: center;
+    }
+    .ProjectCard {
+        padding: 18px;
+        display: flex;
+        width: 296px;
+        height: 197px;
+    }
+    .TitleProject{
+        font-size: 18px;
+    }
+    .Description{
+        width: 246px;
+        font-size: 13px;
+    }
+    .Footer{
+        padding: 46px 0px;
+        flex-direction: column;
+        width: 360px;
+    }
+    .TitleImgFooter{
+        gap: 20px;
+        align-items: center;
+    }
+    .TextFooter {
+        text-align: center;
+    }
+    }
